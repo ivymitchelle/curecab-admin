@@ -16,7 +16,7 @@ import { useEffect } from "react";
 import { setUser } from "./redux/features/AuthSlice";
 import axios from "axios"
 
-axios.defaults.baseURL="https://75b9-105-160-97-85.ngrok-free.app/api/v1"
+axios.defaults.baseURL="https://curecab-api.onrender.com/api/v1"
 function App() {
   const { user } = useSelector((store) => store.auth);
   const dispatch = useDispatch();
